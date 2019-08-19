@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Hyperapp 2 explore</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script type="module">
+      import { h, app } from './modules/hyperapp.js'
+
+      app({
+        init: 0,
+        view: state =>
+          h('div', {}, [
+            h('h1', {}, state),
+            h('button', { onClick: state => state - 1 }, '-'),
+            h('button', { onClick: state => state + 1 }, '+'),
+          ]),
+        node: document.getElementById('app'),
+      })
+    </script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

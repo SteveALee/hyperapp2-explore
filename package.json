@@ -1,0 +1,19 @@
+{
+  "name": "hyperapp2-explore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "serve": "^11.1.0",
+    "start-server-and-test": "^1.10.0"
+  },
+  "scripts": {
+    "start": "serve",
+    "cy:open": "cypress open",
+    "test": "start-server-and-test start http://localhost:5000 cy:open"
+  },
+  "author": "steve@opendirective.com",
+  "license": "MIT"
+}

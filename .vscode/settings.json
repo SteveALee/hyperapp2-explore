@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["cypress.json"],
+      "url": "https://on.cypress.io/cypress.schema.json"
+    }
+  ]
+}
