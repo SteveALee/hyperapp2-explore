@@ -4,24 +4,15 @@
   <head>
     <meta charset="utf-8" />
 
-    <title>Hyperapp 2 explore</title>
-
-    <link rel="stylesheet" href="css/styles.css" />
-
     <script type="module">
-      import { h, app } from './modules/hyperapp.js'
+      // No need for any build tooling with moder browsers
+      import { app, h } from './hyperapp.js'
 
-      app({
-        init: 0,
-        view: state =>
-          h('div', {}, [
-            h('h1', {}, state),
-            h('button', { onClick: state => state - 1 }, '-'),
-            h('button', { onClick: state => state + 1 }, '+'),
-          ]),
-        node: document.getElementById('app'),
-      })
+      // Make hyperapp available to cypress spec scripts via mount-app
+      window.hyperapp = { app, h }
     </script>
+
+    <title>Hyperapp 2 explore</title>
   </head>
 
   <body>
