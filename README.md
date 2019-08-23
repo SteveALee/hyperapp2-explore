@@ -13,7 +13,7 @@
 
 The usual way to learn a new API is read the docs including a scan of the reference in order to get to grip with the key concepts. Tutorial articles or videos are often useful for the details but sometimes the 'signal to noise ratio' is not ideal for personal preferences. Finally playing with examples in local or online coding tools or REPLs helps exploring specific requirements.
 
-I thought tests would bea great way to explain the API that uses concise code and is more reproducable than adhoc coding with manual or interactive experiments. BDD style tests are particularlyh helpful in explaining how an API behavies without white box knowledge.
+I thought tests would be a great way to explain the API using concise code that is more reproducable than ad-hoc coding with manual or interactive experiments. BDD style tests are particularly helpful in explaining how an API behavies without white box knowledge.
 
 [Cypress](https://www.cypress.io/) in particular has several great features that should make this work well for learning:
 
@@ -25,7 +25,7 @@ I thought tests would bea great way to explain the API that uses concise code an
 We suggest:
 
 - `npm install`
-- Run the tests `npm test` and look at the runner output
+- Run the tests `npm test` and look at the runner output which list the key concepts
 - Click on any of the runner test lines to expand it and set the browser state
 - Read the [spec file code](cypress/integration/hyperapp2-api.spec.js))
 - Open the F12 browser dev tools
