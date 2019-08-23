@@ -17,7 +17,7 @@ We suggest:
 
 - Run the tests `npm test` and look at the runner output
 - Click on any of the runner test lines to expand it and set the browser state
-- Read the [spec file code](cypress/integration/hyperapp-2-api.spec.js))
+- Read the [spec file code](cypress/integration/hyperapp2-api.spec.js))
 - Open the F12 browser dev tools
 - Click on an assert to see detailed ouput in the F12 console
 - Edit the spec file adding `.only` to `describe` or `it` statements (eg `its.only(`) to limit the tests
