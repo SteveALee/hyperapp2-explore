@@ -22,6 +22,8 @@ I thought tests would be a great way to explain the API using concise code that 
 - Use browser F12 tools to further explore the code
 - Easy to use commands build on Mocha & Chai assertions and retry automatically
 
+The approach taken here is to explain the concepts with minimal 'sugar' code. One of the benefits of hyperapp is the small core acts as a basis for you own abstractions and patterns using functional composition. I suggest you looks at some of the extra hyperapp examples, effects and subscriptions for more.
+
 We suggest:
 
 - `npm install`
