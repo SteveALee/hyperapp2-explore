@@ -2,11 +2,20 @@
 
 ## A Cypress spec file that exercises and explains the hyperscript 2.0 API
 
+[Hyperapp](https://github.com/jorgebucaran/hyperapp) is a frontend micro 'framework' with:
+
+- elm-style architecture
+- single state atom
+- virtual DOM with functional components
+- pure functional action functions that update state or chain to effects
+- effects and subscriptions keep side effects out of pure logic
+- declarative
+
 The usual way to learn a new API is read the docs including a scan of the reference in order to get to grip with the key concepts. Tutorial articles or videos are often useful for the details but sometimes the 'signal to noise ratio' is not ideal for personal preferences. Finally playing with examples in local or online coding tools or REPLs helps exploring specific requirements.
 
-I thought using tests could help explain the API in a way that is concise code and more reproducable than adhoc coding with manual or interactive experiments. BDD style tests are particularlyh helpful in explaining how an API behavies without white box knowledge.
+I thought tests would bea great way to explain the API that uses concise code and is more reproducable than adhoc coding with manual or interactive experiments. BDD style tests are particularlyh helpful in explaining how an API behavies without white box knowledge.
 
-Cypress in particular has several great features that should make this work well for learning:
+[Cypress](https://www.cypress.io/) in particular has several great features that should make this work well for learning:
 
 - Runs in-process in the browser so is fast and reliable. Plus full access to all code.
 - Can click on any result in the runner to jump to it in UI and browser state
