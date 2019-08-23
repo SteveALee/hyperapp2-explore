@@ -24,6 +24,7 @@ I thought tests would bea great way to explain the API that uses concise code an
 
 We suggest:
 
+- `npm install`
 - Run the tests `npm test` and look at the runner output
 - Click on any of the runner test lines to expand it and set the browser state
 - Read the [spec file code](cypress/integration/hyperapp2-api.spec.js))
