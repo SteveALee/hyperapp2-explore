@@ -2,6 +2,8 @@
 
 ## A Cypress spec file that exercises and explains the hyperscript 2.0 API
 
+!! See instructions below for how to locally install and run these interactive docs in your browser.
+
 [Hyperapp](https://github.com/jorgebucaran/hyperapp) is a frontend micro 'framework' with:
 
 - elm-style architecture
@@ -24,7 +26,7 @@ I thought tests would be a great way to explain the API using concise code that 
 
 The approach taken here is to explain the concepts with minimal 'sugar' code. One of the benefits of hyperapp is the small core acts as a basis for you own abstractions and patterns using functional composition. I suggest you looks at some of the extra hyperapp examples, effects and subscriptions for more.
 
-We suggest:
+## To explore the interactive docs we suggest:
 
 - `npm install`
 - Run the tests `npm test` and look at the runner output which list the key concepts
